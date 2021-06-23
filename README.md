@@ -19,7 +19,7 @@ The server contains the Elasticsearch node, the Snowstorm java runtime and Nginx
 To make the Swagger/API docs "a little" less generic. SecurityAndUriConfig.java:
 ```java
 docket.apiInfo(new ApiInfo("Snowstorm - Scandinavian Sandbox", "A Scandinavian SNOMED CT sandbox environment for testing & learning. Courtesy of Snomed International at https://github.com/IHTSDO/snowstorm", version, null,
-				new Contact("Oskar Hurtig", "https://hurtig.care", oskar@hurtig.care), "Snowstorm Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0"));
+				new Contact("Oskar Hurtig", "https://hurtig.care", "oskar@hurtig.care"), "Snowstorm Apache 2.0", "http://www.apache.org/licenses/LICENSE-2.0"));
 
 ```
 To change default header language. Config.java:
