@@ -1,7 +1,7 @@
 # Snowstorm installation and configuration
 
 ## Server requirements
-Installed on Ubuntu 20.04 LTS VPS with 4 vCPUs, 8GB RAM and 160GB SSD.
+Installed on Ubuntu 20.04 LTS VPS with 4 vCPUs, 16GB RAM and 160GB SSD. Minimum requirements for Snowstorm is around 8GB RAM, 2 vCPUs and 64GB SSD. 
 
 The server contains the Elasticsearch node, the Snowstorm java runtime and Nginx as a proxy.
 
